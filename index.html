@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Policible</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #0F1419;
+            background-color: #F7F9F9;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #FFFFFF;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 24px;
+            border-bottom: 2px solid #EFF3F4;
+        }
+        
+        h1 {
+            font-size: 32px;
+            font-weight: 800;
+            color: #0F1419;
+            margin-bottom: 8px;
+        }
+        
+        .subtitle {
+            font-size: 16px;
+            color: #536471;
+        }
+        
+        h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #0F1419;
+            margin-top: 32px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #0F1419;
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+        
+        p {
+            font-size: 15px;
+            color: #0F1419;
+            margin-bottom: 16px;
+        }
+        
+        ul {
+            margin-left: 24px;
+            margin-bottom: 16px;
+        }
+        
+        li {
+            font-size: 15px;
+            color: #0F1419;
+            margin-bottom: 8px;
+        }
+        
+        .faq-item {
+            background-color: #F7F9F9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            border-left: 4px solid #1D9BF0;
+        }
+        
+        .faq-item h3 {
+            margin-top: 0;
+            color: #1D9BF0;
+        }
+        
+        .contact-box {
+            background-color: #E7F5FF;
+            padding: 24px;
+            border-radius: 8px;
+            margin-top: 32px;
+            text-align: center;
+        }
+        
+        .contact-box h2 {
+            margin-top: 0;
+            justify-content: center;
+        }
+        
+        .email-link {
+            display: inline-block;
+            background-color: #1D9BF0;
+            color: #FFFFFF;
+            padding: 12px 24px;
+            border-radius: 24px;
+            text-decoration: none;
+            font-weight: 700;
+            margin-top: 16px;
+            transition: background-color 0.2s;
+        }
+        
+        .email-link:hover {
+            background-color: #0066CC;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 16px;
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+        
+        .feature-card {
+            background-color: #F7F9F9;
+            padding: 16px;
+            border-radius: 8px;
+            border: 1px solid #EFF3F4;
+        }
+        
+        .feature-card h3 {
+            margin-top: 0;
+            font-size: 16px;
+        }
+        
+        .feature-card p {
+            margin-bottom: 0;
+            font-size: 14px;
+            color: #536471;
+        }
+        
+        .icon {
+            font-size: 24px;
+            margin-right: 8px;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 24px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+            
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛡️ Policible Support</h1>
+            <p class="subtitle">Help & Frequently Asked Questions</p>
+        </div>
+
+        <h2><span class="icon">🚀</span>Getting Started</h2>
+        <p>Policible is super simple to use. Here's how to get going:</p>
+        <ol>
+            <li><strong>Add a Profile:</strong> Go to the Profiles tab and tap "Add Profile" to create a profile for yourself or family members</li>
+            <li><strong>Add Your Policies:</strong> Head to the Policies tab and tap the + button to add your insurance policies</li>
+            <li><strong>Add Agents (Optional):</strong> Go to the Agents tab to save your insurance agent contact info</li>
+            <li><strong>Set Reminders (Optional):</strong> Open any policy and tap the bell icon to enable payment reminders</li>
+        </ol>
+
+        <h2><span class="icon">❓</span>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>Is my data safe?</h3>
+            <p>Yes! All your data is stored locally on your device. Nothing gets sent to any servers. We literally can't see your data even if we wanted to.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Do I need to create an account?</h3>
+            <p>Nope! No sign-up, no email, no personal info needed. Just download and start using it.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I share policies with family?</h3>
+            <p>Go to the Profiles tab, tap the share icon on any profile, select which policies to share, create a passcode, and share the encrypted file. The recipient will need to import it in their app using the same passcode.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do payment reminders work?</h3>
+            <p>Open any policy, tap the bell icon, and enable reminders. You'll get notified 2 weeks before each payment is due. When you pay, just mark it as "Paid Already" to schedule the next reminder.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Can I backup my data?</h3>
+            <p>Yes! Go to Settings > Backup Data, create a passcode, and save the encrypted backup file. You can restore it anytime from Settings > Restore Backup.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What if I forget my backup passcode?</h3>
+            <p>Unfortunately, we can't recover lost passcodes since everything is encrypted locally. Make sure to keep your passcode somewhere safe!</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I enable biometric lock?</h3>
+            <p>Go to Settings and toggle on "Biometric Authentication". You'll need to have Face ID or fingerprint set up on your device first.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What happens if I delete the app?</h3>
+            <p>All your data will be deleted. Make sure to create a backup first if you want to keep your data!</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Can I use this on multiple devices?</h3>
+            <p>Each device stores its own data. To sync between devices, create a backup on one device and restore it on another.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Is this app really free?</h3>
+            <p>Yes! Completely free, no ads, no in-app purchases.</p>
+        </div>
+
+        <h2><span class="icon">✨</span>Features</h2>
+        
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>📋 Policy Management</h3>
+                <p>Store all types of insurance - health, life, motor, home, pet, travel, and more</p>
+            </div>
+            <div class="feature-card">
+                <h3>👨‍👩‍👧‍👦 Family Profiles</h3>
+                <p>Organize policies by family members or beneficiaries</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔔 Payment Reminders</h3>
+                <p>Get notified before premium payments are due</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔒 Secure Sharing</h3>
+                <p>Share profiles with family using encrypted files</p>
+            </div>
+            <div class="feature-card">
+                <h3>💾 Backup & Restore</h3>
+                <p>Create encrypted backups of all your data</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔐 Biometric Lock</h3>
+                <p>Protect your data with Face ID or fingerprint</p>
+            </div>
+        </div>
+
+        <h2><span class="icon">🔧</span>Troubleshooting</h2>
+
+        <h3>Notifications not working?</h3>
+        <ul>
+            <li>Make sure you've granted notification permissions in your device settings</li>
+            <li>Check that the policy has a payment frequency other than "One-time"</li>
+            <li>Verify the start date is correct</li>
+        </ul>
+
+        <h3>Can't import a shared file?</h3>
+        <ul>
+            <li>Make sure you're using the correct passcode</li>
+            <li>Make sure you're importing from a sharing profile file (not a Backup Data)</li>
+            <li>Check that it's a .policible file</li>
+        </ul>
+
+        <h3>Biometric authentication not available?</h3>
+        <ul>
+            <li>Make sure Face ID or fingerprint is set up in your device settings</li>
+            <li>This feature is not available on web browsers</li>
+        </ul>
+
+        <h2><span class="icon">🔒</span>Privacy & Security</h2>
+        <p>Your privacy is our top priority:</p>
+        <ul>
+            <li>All data is stored locally on your device</li>
+            <li>No cloud sync or external servers</li>
+            <li>No tracking, analytics, or data collection</li>
+            <li>Encrypted backups with password protection</li>
+            <li>Optional biometric authentication</li>
+        </ul>
+        <p>Read our full <a href="https://policible.github.io/privacy-policy/">Privacy Policy</a> for more details.</p>
+
+        <h2><span class="icon">💡</span>Tips & Best Practices</h2>
+        <ul>
+            <li><strong>Regular Backups:</strong> Create backups regularly, especially before major phone updates</li>
+            <li><strong>Keep Passcodes Safe:</strong> Store your backup passcodes securely - we can't recover them</li>
+            <li><strong>Update Policy Details:</strong> Keep your policy information up to date for accurate reminders</li>
+            <li><strong>Add Notes:</strong> Use the notes field to record payment methods or where documents are stored</li>
+            <li><strong>Organize by Profile:</strong> Create separate profiles for each family member for better organization</li>
+        </ul>
+
+        <div class="contact-box">
+            <h2><span class="icon">📧</span>Still Need Help?</h2>
+            <p>Can't find what you're looking for? Got feedback or found a bug?</p>
+            <p>We're here to help!</p>
+            <a href="mailto:policible.dev@gmail.com" class="email-link">Email Support</a>
+            <p style="margin-top: 16px; font-size: 14px; color: #536471;">policible.dev@gmail.com</p>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; padding-top: 24px; border-top: 1px solid #EFF3F4;">
+            <p style="font-size: 14px; color: #536471;">Policible v1.0.0</p>
+        </div>
+    </div>
+</body>
+</html>
